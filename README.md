@@ -16,6 +16,10 @@ Icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from 
 ## About this fork:
 This fork adds some minor functionality to [Nachtzuster's](https://github.com/Nachtzuster/BirdNET-Pi) BirdNET-Pi.
 
+Changes include:
+
+ - Making BirdWeather soundscape uploads optional, for privacy reasons - PRIVACY_THRESHOLD does filter out clips with human voices but that affects all analysis.
+
 ## Introduction
 BirdNET-Pi is built on the [BirdNET framework](https://github.com/kahst/BirdNET-Analyzer) by [**@kahst**](https://github.com/kahst) <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg"></a> using [pre-built TFLite binaries](https://github.com/PINTO0309/TensorflowLite-bin) by [**@PINTO0309**](https://github.com/PINTO0309) . It is able to recognize bird sounds from a USB microphone or sound card in realtime and share its data with the rest of the world.
 

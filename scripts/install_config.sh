@@ -293,6 +293,13 @@ IDFILE=$HOME/BirdNET-Pi/IdentifiedSoFar.txt
 LogLevel_BirdnetRecordingService="error"
 LogLevel_LiveAudioStreamService="error"
 LogLevel_SpectrogramViewerService="error"
+
+################################################################################
+#---------------------------------  Custom  -----------------------------------#
+################################################################################
+
+## Exclude soundscapes from detections uploaded to BirdWeather
+BIRDWEATHER_SOUNDSCAPE_ENABLED=1
 EOF
 }
 
